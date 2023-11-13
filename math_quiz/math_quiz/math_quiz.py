@@ -27,7 +27,7 @@ def math_quiz():
     print("You will be presented with math problems, and you need to provide the correct answers.")
 
     for _ in range(t_q):
-        n1 = function_random_min_max(1, 10); n2 = function_random_min_max(1, 5.5); o = function_random_symble()
+        n1 = function_random_min_max(1, 10); n2 = function_random_min_max(1, 5); o = function_random_symble()
 
         PROBLEM, ANSWER = function_math(n1, n2, o)
         print(f"\nQuestion: {PROBLEM}")
