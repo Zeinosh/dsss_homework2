@@ -1,4 +1,2 @@
-# Example requirements.txt
-dependency1==1.0.0
-dependency2>=2.1.0,<3.0.0
-random2 == 1.0.1
+# The requirement packages 
+random>=1.2.0,<2.0.0
